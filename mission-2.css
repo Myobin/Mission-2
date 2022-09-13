@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: 'Bebas Nueue', cursive;
+    color:#2547c5;
+    padding: 10px;
+    margin: 25px;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px;   
+}
+.results , .guesses {
+    font-size: 45px;
+}
+
+.alphabtn {
+    font-size: 55px;
+    margin: 1px 1px;
+    text-decoration: none;
+    background-color: azure;
+    border: none;
+    background: none;
+    padding: 1px 1px;
+    outline-style: none;
+}
+
+.btn {
+    font-size: 65px;
+    background-color: cadetblue;
+}
+
