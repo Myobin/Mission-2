@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: cadetblue;
+    background-color:cadetblue;
     font-family: 'Bebas Nueue', cursive;
     color:#2547c5;
     padding: 10px;
@@ -35,6 +35,6 @@ h1 {
 
 .btn {
     font-size: 65px;
-    background-color: cadetblue;
+    background-color: aquamarine;
 }
 
