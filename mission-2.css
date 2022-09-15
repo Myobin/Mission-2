@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:cadetblue;
+    background-color: #F5F5F5;
     font-family: 'Bebas Nueue', cursive;
     color:#2547c5;
     padding: 10px;
@@ -35,6 +35,112 @@ h1 {
 
 .btn {
     font-size: 65px;
-    background-color: aquamarine;
+    padding: 25px;
+    margin: 15px;
+    background-color: palegoldenrod;
+    border: none;
 }
 
+.images {
+    width: 75px;
+    height: 100px;
+    display: flex;
+}
+/*Animation for img1*/
+@keyframes apple {
+    0% {
+        transform: rotateZ(5deg);
+    }
+    25% {
+        transform: rotateZ(10deg);
+    }
+    50% {
+        transform: rotateZ(-10deg);
+    }
+    75% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(5deg);
+    }
+}
+
+#img1 {
+    position: absolute;
+    top: 35px;
+    left: 95px;
+    animation-name: apple;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+/*animation on grape*/
+@keyframes grape {
+
+    0% {
+        transform:rotateZ(-5deg);
+    }
+
+    25% {
+        transform: rotateZ(10deg);
+    }
+
+    50% {
+        transform: rotateZ(-10deg);
+    }
+
+    75% {
+        transform: rotateZ(10deg);
+    }
+
+    100% {
+        transform: rotateZ(-5deg);
+    }
+}
+
+#img2 {
+    position: absolute;
+    width: 85px;
+    top: 307px;
+    right: 325px;
+    animation-name: grape;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#img3 {
+    position: absolute;
+    bottom: 60px;
+    left: 387px;
+    width: 85px;
+    transform: rotateZ(-45deg);
+}
+
+#img4 {
+    position: absolute;
+    right: 192px;
+    top: 56px;
+}
+
+#img5 {
+    position: absolute;
+    bottom: 60px; 
+    right: 387px;
+    width: 135px;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+    .images {
+        width: 35px;
+    }
+}
